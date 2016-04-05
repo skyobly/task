@@ -50,7 +50,7 @@ var numberArray = [];
  		return ;
  	};
 
- 	numberArray.unshift(numberValue);
+ 	numberArray.unshift(parseInt(numberValue));
  	numberInputElement.value = "";
 
  	renderNumberList();
@@ -66,7 +66,7 @@ var numberArray = [];
  		return ;
  	};
 
- 	numberArray.push(numberValue);
+ 	numberArray.push(parseInt(numberValue));
  	numberInputElement.value = "";
 
  	renderNumberList();
